@@ -1,24 +1,23 @@
 {
-  "name": "creonit/sendpulse-mailer",
+  "name": "celsoandrade/sendpulse-mailer",
   "type": "symfony-bundle",
   "description": "",
   "keywords": [
-    "creonit",
     "symfony",
     "sendpulse"
   ],
   "license": "GPL-3.0-only",
   "authors": [
     {
-      "name": "Alexey Sergeev",
-      "email": "a.sergeev.creonit@gmail.com"
+      "name": "Celso Andrade",
+      "email": "celsoandrade@gmail.com"
     }
   ],
   "require": {
     "ext-json": "*",
     "php": ">=7.2.5",
-    "symfony/mailer": "^4.4|^5.0",
-    "symfony/http-client": "^4.4|^5.0"
+    "symfony/mailer": "^4.4|^6.4",
+    "symfony/http-client": "^4.4|^6.4"
   },
   "autoload": {
     "psr-4": {
